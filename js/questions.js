@@ -1,4 +1,4 @@
-// Var with array and object for questions 
+// Var with array and object for questions
 var questions = [
     {
         title: "Commonly used data types DO NOT include:",
@@ -55,9 +55,9 @@ timer.addEventListener("click", function () {
     }
     render(questionIndex);
 });
-// Renders questions and choices to page: 
+// Renders questions and choices to page:
 function render(questionIndex) {
-    // Clears existing data 
+    // Clears existing data
     questionsDiv.innerHTML = "";
     ulCreate.innerHTML = "";
     // For loops to loop through all info in array
@@ -87,7 +87,7 @@ function compare(event) {
             score++;
             createDiv.textContent = "Correct! The answer is:  " + questions[questionIndex].answer;
         } else {
-            // Will deduct -5 seconds off secondsLeft for wrong answers
+            // Will deduct -10 seconds off secondsLeft for wrong answers
             secondsLeft = secondsLeft - penalty;
             createDiv.textContent = "Wrong! The correct answer is:  " + questions[questionIndex].answer;
         }
