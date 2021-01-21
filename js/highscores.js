@@ -20,5 +20,5 @@ if (allScores !== null) {
 }
 // Event listener to move to index page
 goBack.addEventListener("click", function () {
-    window.location.replace("./index.html");
+    window.location.replace("/04-Web-APIs-Code-Quiz/index.html");
 });
