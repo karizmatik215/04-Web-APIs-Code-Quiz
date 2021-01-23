@@ -1,154 +1,112 @@
-        *{
+* {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
     margin: 5px;
     padding: 5px;
-        }
+}
 
 a:link {
-  color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 a:visited {
-  color: rgb(145, 0, 120);
+    color: rgb(145, 0, 120);
 }
 
 a:hover {
-  color: hotpink;
+    color: rgb(255, 105, 180);
 }
 
 a:active {
-  color: blue;
+    color: rgb(0, 0, 255);
 }
 
-        #wrapper {
-            position: absolute;
-            left: 25%;
-            top: 25%;
-            width: 500px;
-            height: 500px;
-        }
-        #startTime {
-            background-color: rgb(0, 0, 0);
-            margin-left: 33%;
-            padding: 15px 32px;
-            font-size: 20px;
-            color: white;
-        }
-        #questionsDiv {
-            margin: 20px;
-        }
+#wrapper {
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    width: 500px;
+    height: 500px;
+}
+#startTime {
+    background-color: rgb(0, 0, 0);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
+#questionsDiv {
+    margin: 20px;
+}
 
-        #currentTime {
-            float: right;
-        }
+#currentTime {
+    float: right;
+}
 
-        #goBack {
-            background-color: rgb(0, 0, 0);
-            position: relative;
-            padding: 10px;
-            font-size: 20px;
-            color: white;
-            top: 30%;
-            left: 55%;
-            width: auto;
-            text-align: center;
-            text-decoration: none;
-        }
+#goBack {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    left: 55%;
+    width: auto;
+    text-align: center;
+    text-decoration: none;
+}
 
+#clear {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    top: 30%;
+    right: 5%;
+    text-align: center;
+}
 
+button {
+    border-radius: 5px;
+}
 
-        #clear {
-            background-color: rgb(0, 0, 0);
-            position: relative;
-            padding: 10px;
-            font-size: 20px;
-            color: white;
-            top: 30%;
-            right: 5%;
-            text-align: center;
-        }
+textarea {
+    width: 90%;
+    margin: 20px;
+}
 
-        button {
-            border-radius: 5px;
-        }
+#Submit {
+    background-color: rgb(0, 0, 0);
+    margin-left: 33%;
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+}
 
-        textarea {
-            width: 90%;
-            margin: 20px;
-        }
+label {
+    margin-right: 10px;
+}
+input {
+    margin-bottom: 20px;
+    width: 50%;
+    border: 1px solid lightgray;
+}
 
-        #Submit {
-            background-color: rgb(0, 0, 0);
-            margin-left: 33%;
-            padding: 15px 32px;
-            font-size: 20px;
-            color: white;
-        }
+h1 {
+    text-align: center;
+}
 
-        label {
-            margin-right: 10px;
-        }
-        input {
-            margin-bottom: 20px;
-            width: 50%;
-            border: 1px solid lightgray;
-        }
+li {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px 10px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+}
 
-        h1 {
-            text-align: center;
-        }
-
-        li {
-            background-color: rgb(0, 0, 0);
-            margin-top: 10px;
-            padding: 10px 10px;
-            width: 100%;
-            font-size: 18px;
-            color: white;
-        }
-
-        #createDiv {
-            margin-top: 20px;
-            border-top: 1px solid lightgray;
-        }
-
-@media screen and (max-width: 786px) {
-    body {
-        max-width: 786px;
-        }
-
-    #wrapper {
-        position: absolute;
-        left: 20%;
-    }
-
-    a {
-        margin-left: 20%;
-    }
-        #goBack {
-            
-            position: relative;
-            left: 55%;
-        }
-
-        #clear {
-            
-            position: relative;
-            right: 5%;
-            
-        }
-    }
-        
-    @media screen and (max-width: 640px) {
-     body {
-            min-width: 640px;
-        }
-    #wrapper {
-        position: absolute;
-        left: 10%;
-    }
-      a {
-          margin-left: 10%;
-      }
+#createDiv {
+    margin-top: 20px;
+    border-top: 1px solid lightgray;
 }
